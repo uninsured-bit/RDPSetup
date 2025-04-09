@@ -7,7 +7,7 @@ param adminUsername string = 'mlvcsuperuser'
 
 //@secure()
 param adminPass string = '$RgV^IMbaGb16y'
-//IP is 134.149.84.160
+//IP address is 52.169.45.233
 
 resource vnet 'Microsoft.Network/virtualNetworks@2024-05-01' = {
   name: 'vnet'
